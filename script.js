@@ -11,7 +11,14 @@
  */
 
 // ここに関数を定義しましょう
-
+function over100(num){
+    if (num >= 100){
+        return true;
+    }
+    else if (num < 100){
+        return false;
+    }
+}
 
 // ここからはテストなので変更を加えないでください
 console.log("*** 問題 ***");
